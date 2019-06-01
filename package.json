@@ -1,0 +1,25 @@
+{
+  "name": "terminal-exec",
+  "version": "0.0.1",
+  "description": "Open terminal and execute command",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulipulichen/terminal-exec.git"
+  },
+  "keywords": [
+    "terminal",
+    "exec",
+    "shell"
+  ],
+  "author": "Pulipuli Chen <blog@pulipuli.info>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pulipulichen/terminal-exec/issues"
+  },
+  "homepage": "https://github.com/pulipulichen/terminal-exec#readme"
+}
