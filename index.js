@@ -1,4 +1,4 @@
-const {exec} = require('child_process')
+const { exec } = require('child_process')
 
 if (process.platform === 'linux') {
   const fs = require('fs')
