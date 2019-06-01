@@ -1,3 +1,8 @@
 const terminalExec = require('./index.js')
 
-terminalExec('echo "Hello world" && pause')
+if (process.platform === 'win32') {
+  terminalExec('echo "Hello world" && pause')
+}
+else if (process.platform === 'linux') {
+  terminalExec('sudo echo "Hello world"')
+}
