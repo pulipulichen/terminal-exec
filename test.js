@@ -1,3 +1,3 @@
 const terminalExec = require('./index.js')
 
-terminalExec('echo Hello world && pause')
+terminalExec('echo "Hello world" && pause')

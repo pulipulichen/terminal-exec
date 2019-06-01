@@ -51,12 +51,9 @@ if (process.platform === 'linux') {
 }
 else if (process.platform === 'win32') {
   let termExec = function (command, options, callback) {
-    if (command.indexOf('"')) {
-      command = command.split('"').join('\\"')
-    }
     
-    command = 'cmd /K "' + command + '"'
-    console.log(command)
+    command = 'start cmd /c "' + command + '"'
+    //console.log(command)
     exec(command, options, callback)
   }
   
