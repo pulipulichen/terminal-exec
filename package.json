@@ -1,11 +1,10 @@
 {
   "name": "terminal-exec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Open terminal and execute command",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "publish": "npm publish"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
