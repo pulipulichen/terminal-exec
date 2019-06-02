@@ -45,3 +45,4 @@ Result:
 - Project: https://github.com/pulipulichen/terminal-exec
 - Issues: https://github.com/pulipulichen/terminal-exec/issues
 - npm: https://www.npmjs.com/package/terminal-exec
+- RunKit (test): https://npm.runkit.com/terminal-exec
