@@ -12,6 +12,8 @@
 npm i terminal-exec
 ````
 
+----
+
 # Usage
 
 ## Windows
