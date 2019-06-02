@@ -35,3 +35,11 @@ terminalExec('sudo echo "Hello world" & pause')
 Result:
 
 ![anime](https://user-images.githubusercontent.com/2345913/58757490-e4d35600-853f-11e9-841d-8e8f070cf4e1.gif)
+
+----
+
+# Websites
+
+- Project: https://github.com/pulipulichen/terminal-exec
+- Issues: https://github.com/pulipulichen/terminal-exec/issues
+- npm: https://www.npmjs.com/package/terminal-exec
