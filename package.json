@@ -4,7 +4,8 @@
   "description": "Open terminal and execute command",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "publish": "node dev/publish.js"
   },
   "repository": {
     "type": "git",
