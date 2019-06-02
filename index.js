@@ -38,13 +38,19 @@ if (process.platform === 'linux') {
   let terminalPath = terminalConf.path
   let terminalSwitch = terminalConf.switch
   
-  let termExec = function (command, options, callback) {
-    if (command.indexOf('"')) {
-      command = command.split('"').join('\\"')
+  if (terminalConf !== undefined) {
+    let termExec = function (command, options, callback) {
+      if (command.indexOf('"')) {
+        command = command.split('"').join('\\"')
+      }
+
+      command = terminalPath + ' ' + terminalSwitch + ' "' + command + '"'
+      exec(command, options, callback)
     }
-    
-    command = terminalPath + ' ' + terminalSwitch + ' "' + command + '"'
-    exec(command, options, callback)
+  }
+  else {
+    console.log("Terminal is not found.")
+    termExec = exec
   }
   
   module.exports = termExec
