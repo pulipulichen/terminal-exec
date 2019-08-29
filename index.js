@@ -35,12 +35,13 @@ if (process.platform === 'linux') {
     }
   }
   
+  let termExec
   if (terminalConf !== undefined) {
 
     let terminalPath = terminalConf.path
     let terminalSwitch = terminalConf.switch
     
-    let termExec = function (command, options, callback) {
+    termExec = function (command, options, callback) {
       if (command.indexOf('"')) {
         command = command.split('"').join('\\"')
       }
